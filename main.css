@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(blocks/header/socials/socials.css);
+@import url(blocks/header/menu/menu.css);
+@import url(blocks/header/menu/menu-responsive.css);
+@import url(blocks/header/search/search.css);
+@import url(blocks/home-intro/home-intro.css);
+@import url(blocks/home-intro/home-intro-responsive.css);
+
+html{
+    height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{    
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+body{
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #686868;
+}
+
+

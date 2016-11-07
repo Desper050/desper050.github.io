@@ -1,0 +1,58 @@
+@media (max-width: 992px){
+    .home-intro{
+        height: 250px;
+    }
+
+    .home-intro .text{
+        width: 50%;
+        top: 0;
+    }
+
+    .home-intro .picture .hill{
+        width: 400px;
+    }
+
+    .home-intro .picture .house{
+        width: 250px;
+    }
+
+    .home-intro .picture .sun{
+        width: 60px;
+    }
+
+    .home-intro .picture .birds1{
+        width: 70px;
+    }
+
+    .home-intro .picture .birds2{
+        width: 70px;
+    }
+
+    .home-intro .picture{    
+        height: 224px;
+        width: 400px;
+    }
+
+    .home-intro .text h1{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 768px){ 
+    .home-intro{
+        height: 500px;
+    }
+ 
+    .home-intro .text{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .home-intro .picture{
+        right: 50%;
+        margin-right: -200px;
+    }   
+}

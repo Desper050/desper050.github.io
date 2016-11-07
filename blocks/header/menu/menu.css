@@ -1,0 +1,77 @@
+@media only screen and (min-width: 768px){
+    .dropdown:hover .sub-menu {
+        display: block;
+        margin-top: 0;
+    }
+    
+    .menu li:hover ul.sub-menu{
+        position: absolute; 
+        display: block;
+        -webkit-animation: fadeInUp 400ms;
+        animation: fadeInUp 400ms; 
+    }
+
+    ul.sub-menu {
+        position: absolute;
+        top: 60px;
+        left: 0 !important;
+        background: #fff;
+        padding: 10px 0;
+        width: 220px;
+        box-shadow: none;
+        display: none;
+        z-index: 999;
+        border: 1px solid #00aeef;
+    }
+
+    .menu li ul.sub-menu li a {
+        padding: 5px 0px 5px 20px;
+    }
+
+    .menu .dropdown .fa-angle-down{
+        padding-left: 5px;
+    }
+    
+    .menu .nav{
+        margin-right: 10px;
+    }
+}
+
+.menu ul li a:hover, .menu ul li a:focus{
+    background: white;
+}
+
+.menu > ul > li > a{    
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black !important;
+    height: auto;
+    line-height: 20px;
+    padding: 20px 10px;
+}
+
+.menu .sub-menu > li > a{    
+    color: #777;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 0px 5px 20px;
+    line-height: 22px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover, .menu > ul > li > a.active{
+    color: #00aeef !important;
+}
+
+.menu .sub-menu li a:hover, .menu sub-menu li a.active{
+    color: white;
+    background: #00aeef;
+}
+
+.navbar-default{
+     background-color: transparent;
+     border-color: transparent;
+}
+
+

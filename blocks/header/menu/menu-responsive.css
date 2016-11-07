@@ -1,0 +1,48 @@
+@media (max-width: 768px){
+    /*Nav button style*/
+    .navbar-default .navbar-toggle{
+        border-color: #00aeef;
+        background-color: white;
+        margin: 15px 5px 8px 0px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: deepskyblue;
+    }
+    
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background-color: white;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar:hover, .navbar-default .navbar-toggle .icon-bar:focus{
+        background-color: deepskyblue;
+    }
+
+    /*collapsed menu style*/
+    .menu{
+        border-top: none;        
+    }
+
+    .menu > ul > li{
+        padding: 10px 0px !important;
+    }
+
+    .menu > ul > li > a{
+        padding: 0 !important;
+
+    }
+
+    .menu .fa-angle-down{
+        float: right !important;
+    }       
+
+    .menu .sub-menu{   
+        display: none;
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+}
