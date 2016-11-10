@@ -1,0 +1,19 @@
+.services .text .h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.services{
+    text-align: center;
+}
+
+#services{    
+    margin-bottom: 50px;
+}
+
+.services img{
+    vertical-align: middle;
+    text-align: center;
+    height: 85px;
+    margin-top: 30px;
+}

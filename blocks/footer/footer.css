@@ -1,0 +1,41 @@
+#footer{
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    background-image: url(footer.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.footer .footer-separator{
+    margin-bottom: 50px;
+}
+
+.footer-copyright{
+    color: white;
+}
+
+#footer-form-btn-submit{
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #4fcccd;
+    color: white;
+    letter-spacing: 5px;
+    border-bottom: 3px solid #2f9697;
+}
+
+#footer-form-btn-submit:hover{
+    background-color: #72D6D7;
+    border-bottom: 3px solid #58ABAB;
+}
+
+@media (max-width: 768px){
+    #copyright-text{
+        color: #686868;
+    }
+}
+
+#themeum-ref:hover{
+    text-decoration: none;
+}

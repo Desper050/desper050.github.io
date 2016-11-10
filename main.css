@@ -7,15 +7,23 @@
 @import url(blocks/header/search/search.css);
 @import url(blocks/home-intro/home-intro.css);
 @import url(blocks/home-intro/home-intro-responsive.css);
+@import url(blocks/services/services.css);
+@import url(blocks/action/action.css);
+@import url(blocks/features/features.css);
+@import url(blocks/clients/clients.css);
+@import url(blocks/footer/footer.css);
 
 html{
     height: 100%;
 }
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+div{
+    display: block;
 }
 
 ul{
@@ -36,6 +44,7 @@ body{
     font-size: 14px;
     line-height: 22px;
     color: #000;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -44,4 +53,33 @@ h1, h2, h3, h4, h5, h6{
     color: #686868;
 }
 
+h1{
+    font-size: 36px;
+}
 
+h2{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 992px){
+    h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 22px;
+    }
+}
+
+ .btn-common{
+    font-size: 14px;
+    color: #0099ae;
+    border: 1px solid #0099ae;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+    text-transform: uppercase;  
+    background: transparent;
+}

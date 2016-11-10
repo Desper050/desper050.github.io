@@ -1,0 +1,39 @@
+#features{
+    position: relative;
+}
+
+.single-feature{
+    overflow: hidden; 
+}
+
+/*.feature-pic img{
+    width: 400px;
+}
+
+@media only screen and (max-width: 992px){
+    .feature-pic img{
+        width: 300px;
+    }
+}*/
+
+@media (max-width: 768px){
+    .single-feature *{
+        text-align: center;
+    }
+
+    #features{
+        margin-top: 150px;
+    }
+}
+
+.single-feature h2{
+    margin-top: 35px;
+}
+
+.feature-text{     
+    text-align: left;     
+}
+
+#feature-text-left{     
+    text-align: right;     
+}
