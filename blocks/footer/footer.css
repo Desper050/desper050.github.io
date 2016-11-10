@@ -43,3 +43,39 @@
     text-decoration: none;
 }
 
+.footer h3{
+    font-size: 18px;
+}
+
+.footer a{
+    color: #EB3F27;
+}
+
+.footer blockquote{
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer blockquote:after{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    line-height: 0;
+}
+
+.footer blockquote:before{
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    line-height: 0;
+}
