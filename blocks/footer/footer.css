@@ -8,12 +8,15 @@
     background-size: contain;
 }
 
+
 .footer .footer-separator{
     margin-bottom: 50px;
 }
 
 .footer-copyright{
     color: white;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 
 #footer-form-btn-submit{
@@ -31,11 +34,12 @@
 }
 
 @media (max-width: 768px){
-    #copyright-text{
-        color: #686868;
+    .footer-copyright{
+        color: #686868 ;
     }
 }
 
 #themeum-ref:hover{
     text-decoration: none;
 }
+
